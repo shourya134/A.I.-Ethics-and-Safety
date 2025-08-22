@@ -1,8 +1,8 @@
-# =á AI Safety Jailbreak Research Project
+#  AI Safety Jailbreak Research Project
 
 A comprehensive framework for researching and defending against jailbreak attacks on large language models.
 
-## <¯ Project Overview
+##  Project Overview
 
 This repository provides tools and methodologies for:
 - **Detection**: Identifying various jailbreak attack patterns
@@ -10,7 +10,7 @@ This repository provides tools and methodologies for:
 - **Defense**: Developing and evaluating countermeasures
 - **Evaluation**: Benchmarking defense effectiveness
 
-## =€ Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -45,14 +45,14 @@ for prompt in data['data']:
     print(f"Risk Level: {result['risk_level']}")
 ```
 
-## =Ê Supported Datasets
+## Supported Datasets
 
 - **JailbreakBench**: 100 harmful + 100 benign behaviors
 - **AdvBench**: 520 harmful behaviors  
 - **HarmBench**: 400 comprehensive test cases
 - **StrongREJECT**: 313 refusal evaluation prompts
 
-## =' Detection Methods
+##  Detection Methods
 
 ### Prompt-Level Attacks
 - Roleplay scenario detection
@@ -74,26 +74,26 @@ for prompt in data['data']:
 - Content sanitization
 - Source validation
 
-## =È Evaluation Metrics
+##  Evaluation Metrics
 
 - **Attack Success Rate (ASR)**: Percentage of successful jailbreaks
 - **False Positive Rate**: Benign prompts incorrectly flagged
 - **Detection Latency**: Time to identify threats
 - **Robustness Score**: Performance across attack variations
 
-## =á Ethics & Safety
+##  Ethics & Safety
 
 This research is conducted for defensive purposes only. Please review our [Ethics Guidelines](ETHICS.md) before contributing.
 
-## =Ä License
+## =ï¿½ License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## > Contributing
+##  Contributing
 
 Please read [CONTRIBUTING.md](docs/contributing.md) for guidelines.
 
-## =Ú Citation
+##  Citation
 
 If you use this framework in your research, please cite:
 
