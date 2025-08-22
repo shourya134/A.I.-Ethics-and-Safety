@@ -1,0 +1,37 @@
+# Default configuration for AI Safety Jailbreak Research
+
+# Data settings
+data:
+  cache_dir: "./data/cache"
+  batch_size: 32
+  max_length: 512
+
+# Model settings
+models:
+  detector_model: "microsoft/DialoGPT-medium"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  
+# Detection thresholds
+thresholds:
+  prompt_level: 0.7
+  multi_turn: 0.6
+  token_level: 0.8
+  indirect_injection: 0.75
+
+# Evaluation settings
+evaluation:
+  test_split: 0.2
+  random_seed: 42
+  metrics: ["asr", "fpr", "precision", "recall", "f1"]
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "./logs/jailbreak_research.log"
+
+# Output directories
+output:
+  results_dir: "./results"
+  models_dir: "./models"
+  plots_dir: "./plots"
