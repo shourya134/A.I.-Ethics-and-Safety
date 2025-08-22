@@ -85,7 +85,7 @@ for prompt in data['data']:
 
 This research is conducted for defensive purposes only. Please review our [Ethics Guidelines](ETHICS.md) before contributing.
 
-## =� License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
